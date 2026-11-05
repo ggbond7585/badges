@@ -428,6 +428,19 @@
       "tagStyle": "filled and bordered",
       "isEnabled": true,
       "type": "filter"
+    },
+    {
+      "id": "chinese-subtitle",
+      "groupId": "subtitle",
+      "name": "中文字幕",
+      "pattern": "(?i)\\b(chs|cht|chi|zh|zho|chinese|中字|简中|繁中|简体|繁体|简繁|中英|双语|中文字幕|中文)\\b",
+      "imageURL": "",
+      "tagColor": "#00000000",
+      "borderColor": "#00000000",
+      "textColor": "#FFFFFF",
+      "tagStyle": "filled",
+      "isEnabled": true,
+      "type": "filter"
     }
   ],
   "groups": [
@@ -490,6 +503,13 @@
     {
       "id": "audio-channels",
       "name": "Audio Channels",
+      "color": "#00000000",
+      "borderColor": "#00000000",
+      "isExpanded": true
+    },
+    {
+      "id": "subtitle",
+      "name": "Subtitle",
       "color": "#00000000",
       "borderColor": "#00000000",
       "isExpanded": true
